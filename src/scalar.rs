@@ -5,15 +5,6 @@ fn unit() {
     println!("hello");
 }
 
-// fn reference_f1(mut n: u32) {
-//     n = 1;
-//     println!("fi: {}", n);
-// }
-
-// fn reference_f2(n_ptr: &mut u32) {
-
-// }
-
 #[cfg(test)]
 mod tests {
     use super::unit;
